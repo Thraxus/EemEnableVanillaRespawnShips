@@ -143,5 +143,12 @@
     <Compile Include="EemEnableVanillaRespawnShips\Data\Scripts\Thraxus\Core.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="EemEnableVanillaRespawnShips\Data\metadata.mod" />
+    <Content Include="EemEnableVanillaRespawnShips\Data\Thumb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EemEnableVanillaRespawnShips\Data\modinfo.sbmi" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
