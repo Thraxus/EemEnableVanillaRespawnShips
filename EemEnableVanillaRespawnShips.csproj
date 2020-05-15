@@ -144,11 +144,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="EemEnableVanillaRespawnShips\Data\metadata.mod" />
-    <Content Include="EemEnableVanillaRespawnShips\Data\Thumb.jpg" />
+    <None Include="EemEnableVanillaRespawnShips\Data\RespawnShips.sbc" />
+    <None Include="EemEnableVanillaRespawnShips\modinfo.sbmi" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="EemEnableVanillaRespawnShips\Data\modinfo.sbmi" />
+    <Content Include="EemEnableVanillaRespawnShips\metadata.mod" />
+    <Content Include="EemEnableVanillaRespawnShips\Thumb.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
